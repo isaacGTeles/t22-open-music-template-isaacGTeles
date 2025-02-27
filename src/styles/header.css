@@ -1,0 +1,8 @@
+/* estilizações do cabeçalho */
+span{
+    color: var(--brand-1);
+}
+
+header{
+    border-bottom: 2px solid var(--brand-1);
+}

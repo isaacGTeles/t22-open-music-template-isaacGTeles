@@ -1,0 +1,23 @@
+/* estilizações globais */
+:root{
+    --brand-2: #8629ff;
+    --brand-1: #6f00ff;
+    --gray-1: #15171A;
+    --gray-2: #212529;
+    --gray-3: #2b2f33;
+    --gray-4: #ced4da;
+    --gray-5: #dee2e6;
+    --gray-6: #f1f3f5;
+    --gray-7: #f8f9fa;
+    --gray-8: #fdfeff;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: var(--gray-8);         
+    height: 100vh;  
+    width: 100%;
+    max-width: 1024px; 
+    margin: 0 auto;
+
+  }
