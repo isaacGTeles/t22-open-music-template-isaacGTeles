@@ -1,1 +1,8 @@
 /* estilizações do index */
+main{
+    margin-top: 150px;
+}
+
+.filtro-genero h2{
+    padding: 16px;
+}

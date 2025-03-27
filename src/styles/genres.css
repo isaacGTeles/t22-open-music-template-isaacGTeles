@@ -1,1 +1,24 @@
 /* estilizações do genres */
+.genre-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .genre-button {
+    background-color: var(--gray-6);
+    color: var(--gray-3);
+    padding: 10.2px 11.2px ;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    
+  }
+  
+  .genre-button:hover {
+    background-color: var(--gray-6);
+    color: var(--gray-3);
+
+  }
+  

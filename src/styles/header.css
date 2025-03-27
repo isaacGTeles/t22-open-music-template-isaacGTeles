@@ -5,4 +5,30 @@ span{
 
 header{
     border-bottom: 2px solid var(--brand-1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-8);
+    padding: 48px 48px ;
+    
 }
+
+
+    
+    
+    
+   
+    
+    
+    
+    
+  
+    
+    

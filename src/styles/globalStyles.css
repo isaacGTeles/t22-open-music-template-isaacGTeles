@@ -21,3 +21,16 @@ body {
     margin: 0 auto;
 
   }
+
+  /* Responsividade */
+  @media screen and (max-width: 1024px) {
+    .album {
+      flex: 1 1 calc(50% - 20px); /* Em telas menores, 2 cards por linha */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .album {
+      flex: 1 1 calc(100% - 20px); /* Em telas pequenas, 1 card por linha */
+    }
+  }

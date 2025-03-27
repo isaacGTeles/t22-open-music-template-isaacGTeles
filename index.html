@@ -18,7 +18,7 @@
     <header class="cabecalho">
       <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
        <h1><span>O</span>pen <span>m</span>usic</h1>
-       <button id="theme-button">
+       <button id="theme-button" class="theme-button">
         <img id="icon" src="src/assets/icons/moon-icon.svg" alt="Tema Claro">
     </button>
        
@@ -27,32 +27,32 @@
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <!-- SEÇÃO DE FILTRO POR GENERO -->
-      <section>
+      <section class="filtro-genero">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
          <h2>Gênero Musical</h2>
-         <div>
+         <div class="genre-buttons">
           <button class="active">Todos</button>
-          <button>Pop</button>
-          <button>MPB</button>
-          <button>Forró</button>
-          <button>Samba</button>
-          <button>Baião</button>
-          <button>Rap</button>
-          <button>Hip-Hop</button>
+          <button class="genre-button">Pop</button>
+          <button class="genre-button">MPB</button>
+          <button class="genre-button">Forró</button>
+          <button class="genre-button">Samba</button>
+          <button class="genre-button">Baião</button>
+          <button class="genre-button">Rap</button>
+          <button class="genre-button">Hip-Hop</button>
         </div>
          
       </section>
 
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
-      <section>
+      <section class="filtro-preco">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
          <h2>Definir Preço</h2>
          <span>Até R$ 100</span>
-         <input type="range" min="0" max="100" value="100" step="0.01">
+         <input class="preco-slider" type="range" min="0" max="100" value="100" step="0.01">
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
-      <section>
+      <section class="albuns">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
         <h2>Álbuns Encontrados</h2>
         <div class="album-container">
